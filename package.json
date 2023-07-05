@@ -1,0 +1,26 @@
+{
+  "name": "memotest-oceano",
+  "version": "1.0.0",
+  "description": "Memotest del océano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milesolaron/memotest-oceano.git"
+  },
+  "author": "Milena Aron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milesolaron/memotest-oceano/issues"
+  },
+  "homepage": "https://github.com/milesolaron/memotest-oceano#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^20.3.1"
+  },
+  "devDependencies": {
+    "cypress": "^12.16.0"
+  }
+}
