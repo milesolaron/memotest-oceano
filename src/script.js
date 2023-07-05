@@ -15,6 +15,7 @@ function comenzarJuego() {
   reiniciarJuego();
   ocultarImagenes();
   bloquearImagenes();
+  intercambiarUbicaciones();
 
   // Añadir el evento de click y la condición para que la función compararImágenes sea ejecutada.
   $imagenes.forEach(imagen => {
@@ -106,6 +107,18 @@ function verificarFinDelJuego() {
     bloqueoInput = true;
     bloquearImagenes();
   }
+}
+
+function intercambiarUbicaciones() {
+  const $filas = Array.from(document.querySelectorAll('.row'));
+
+  $filas.forEach((fila) => {
+    const $imagenes = Array.from(fila.querySelectorAll('.col-md-3'));
+    $imagenes.forEach((imagen) => {
+      const randomIndex = Math.floor(Math.random() * $imagenes.length);
+      fila.insertBefore(imagen, $imagenes[randomIndex]);
+    });
+  });
 }
 
 // Añadir el evento de click al botón "Empezar".
