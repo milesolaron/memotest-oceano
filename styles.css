@@ -1,0 +1,100 @@
+#estado-div {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }  
+
+.display-1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    padding: 55px 0;
+    color: #00a0ae;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display-4 {
+    background-color: #00a0ae;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagen-oculta {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    background-image: linear-gradient(160deg, #0087b3 0%, #00b3b3 100%);
+    border: 1px solid #00a0e9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+  }
+
+.descubierta {
+    object-fit: cover;
+}
+
+.estado-ganador {
+    color: #085a0e;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #c9f2c1;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#btn-empezar {
+    font-weight: 700;
+    font-size: 25px;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(160deg, #0087b3 0%, #00b3b3 100%);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+ #contador {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #00a0ae;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke: 2px solid #0087b3;
+  }
+  

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Memotest</title>
+</head>
+<body>
+  <!-- Estructura del HTML realizada con Bootstrap -->
+    <h1 class="display-1">Memotest del océano</h1>
+    <div id="estado-div">
+      <button type="button" id="btn-empezar" class="btn btn-primary">Empezar</button>
+        <p class="display-4" id="estado-p">Hacé click en "Empezar" para comenzar a jugar</p>
+        <p id="contador">Turnos: 0</p>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/beluga.jpg" class="card-img-top imagen-oculta" alt="Imagen" data-par="1">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/dolphin.jpg" class="card-img-top imagen-oculta" alt="Imagen 2" data-par="2">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/beluga.jpg" class="card-img-top imagen-oculta" alt="Imagen 3" data-par="1">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/orca.jpg" class="card-img-top imagen-oculta" alt="Imagen 4" data-par="3">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/orca.jpg" class="card-img-top imagen-oculta" alt="Imagen 5" data-par="3">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/penguin.jpg" class="card-img-top imagen-oculta" alt="Imagen 6" data-par="4">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/dolphin.jpg" class="card-img-top imagen-oculta" alt="Imagen 7" data-par="2">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/penguin.jpg" class="card-img-top imagen-oculta" alt="Imagen 8" data-par="4">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <script src="src/script.js"></script>
+</body>
+</html>
